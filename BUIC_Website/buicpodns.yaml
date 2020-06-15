@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: buicpodns
+  namespace: webdevelopment
+  annotations:
+    createdBy: "Muhammad Fawad"
+    email: mfawad1993@gmail.com
+spec:
+  containers:
+  - name: 1bb36e7e8942
+    image: 11201/buic_website_layout
+    ports:
+      - containerPort: 80
+
